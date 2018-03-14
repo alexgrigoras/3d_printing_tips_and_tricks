@@ -1,7 +1,7 @@
 # Etapa 1:
 
 ## A. Documentație (în format electronic)
-- [] Titlul proiectului
+- [ ] Titlul proiectului
 - [] Componența echipei de implementare (evidențierea liderului)
 - [] Prezentarea temei alese + motivația alegerii
 - [] Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese 
