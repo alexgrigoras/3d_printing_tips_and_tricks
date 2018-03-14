@@ -7,3 +7,8 @@ Members:
   - Suflet Ioan
   - Bodnariu Andreea
   - Luncanu Iuliana
+
+MILESTONES:
+  - Etapa 1: - creare repository GitHub
+             - impartire sarcini de lucru
+             - intocmire documentatie
