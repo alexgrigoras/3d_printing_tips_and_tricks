@@ -18,8 +18,8 @@
 - [ ] Referirea și descrierea în text a fiecărei figuri/diagrame 
 
 ## B. Managementul proiectului (Bitbucket/GitHub) 
-- [ ] Utilizarea task-urilor (fiecare membru cel puțin 3 task-uri asignate) 
-- [ ] Stabilirea principalelor componente ale aplicației și ale milestone-urilor/versiunilor 
-- [ ] Asignarea task-urilor în funcție de prioritate, componentele proiectului și milestone-uri 
-- [ ] Repartiția echitabilă a task-urilor între membrii echipei și pe milestone-uri 
-- [ ] Repartiția eficientă și echitabilă a task-urilor pentru primul milestone (sprint)
+- [x] Utilizarea task-urilor (fiecare membru cel puțin 3 task-uri asignate) 
+- [x] Stabilirea principalelor componente ale aplicației și ale milestone-urilor/versiunilor 
+- [x] Asignarea task-urilor în funcție de prioritate, componentele proiectului și milestone-uri 
+- [x] Repartiția echitabilă a task-urilor între membrii echipei și pe milestone-uri 
+- [x] Repartiția eficientă și echitabilă a task-urilor pentru primul milestone (sprint)
