@@ -2,7 +2,9 @@
 
 TUTORIALS - 3D Printing
 
-Members: 
+UPDATE: commit from linux
+
+MEMBERS: 
   - Grigoras Alexandru
   - Suflet Ioan
   - Bodnariu Andreea
