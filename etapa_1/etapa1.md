@@ -3,10 +3,10 @@
 Imprimarea 3D. Sfaturi si trucuri
 
 ### Componența echipei de implementare (evidențierea liderului)
-Grigoras Alexandru (lider)
-Suflet Ioan
-Bodnariu Andreea
-Luncanu Iuliana
+* Grigoras Alexandru (lider)
+* Suflet Ioan
+* Bodnariu Andreea
+* Luncanu Iuliana
 
 ### Prezentarea temei alese + motivația alegerii
 Imprimarea 3D este un subiect care ma pasioneaza de multi ani. Datorita lui am avut initiativa de a-mi construi propria imprimanta. Am ajuns la concl ca mai multi oameni ar trebui sa cunoasca acest subiect, asa ca am decis sa realizam un site care sa ii indrume in acest scop. Platfoma va contine informatii, tutoriale, teste. 
