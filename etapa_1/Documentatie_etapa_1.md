@@ -44,6 +44,4 @@ Organizarea componentelor software fizice este alcatuită dintr-un server web de
  
 ### 14. Diagrame ER pentru baza de date
 Atunci când se înregistrează un utilizator, în baza de date se reține un id (unic utilizatorului), un nume, email, parolă și progres. Progresul acestuia se va face pe baza unui procentaj, a numărului de teste parcurse, a mediei lor și a fișierelor încărcate. Media testelor și numărul acestora parcurse se vor lua dintr-un alt tabel, în care se vor reține numărul testului, dificultatea lui, numărul de întrebări și nota obținută la testul respectiv.
- 
-### 15. Referirea și descrierea în text a fiecărei figuri/diagrame
 
