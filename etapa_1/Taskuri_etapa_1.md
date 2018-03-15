@@ -4,18 +4,18 @@
 - [x] Titlul proiectului
 - [x] Componența echipei de implementare (evidențierea liderului)
 - [x] Prezentarea temei alese + motivația alegerii
-- [ ] Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese 
-- [ ] Descrierea generală a implementării (caracteristici așteptate de la aplicație) 
+- [x] Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese 
+- [] Descrierea generală a implementării (caracteristici așteptate de la aplicație) 
 - [x] Resursele hardware/software utilizate 
-- [ ] Identificarea actorilor și a componentelor principale 
-- [ ] Diagrame UML de use-case 
-- [ ] Diagrame UML de information flow 
+- [x] Identificarea actorilor și a componentelor principale 
+- [x] Diagrame UML de use-case 
+- [x] Diagrame UML de information flow 
 - [x] Diagrame UML de componente 
-- [ ] Diagrame UML de activitate 
-- [ ] Diagrame UML de secvență 
-- [ ] Diagrame UML de stare 
-- [ ] Diagrame ER pentru baza de date 
-- [ ] Referirea și descrierea în text a fiecărei figuri/diagrame 
+- [x] Diagrame UML de activitate 
+- [x] Diagrame UML de secvență 
+- [x] Diagrame UML de stare 
+- [x] Diagrame ER pentru baza de date 
+- [x] Referirea și descrierea în text a fiecărei figuri/diagrame 
 
 ## B. Managementul proiectului (Bitbucket/GitHub) 
 - [x] Utilizarea task-urilor (fiecare membru cel puțin 3 task-uri asignate) 
