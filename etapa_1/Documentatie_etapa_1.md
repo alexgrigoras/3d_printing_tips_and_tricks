@@ -3,7 +3,7 @@
 Imprimarea 3D. Sfaturi și trucuri
 
 ### 2. Componența echipei de implementare (evidențierea liderului)
-* Grigoraș Alexandru (lider)
+* Grigoraș Alexandru (master of puppets)
 * Bodnariu Andreea
 * Luncanu Iuliana
 * Suflet Ioan
