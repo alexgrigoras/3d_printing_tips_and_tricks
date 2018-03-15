@@ -30,15 +30,18 @@ Actorii sunt reprezentați de utilizatorii aplicației (elevi, studenți sau ori
  
 ### 8. Diagrame UML de use-case
 Atunci când accesează aplicația, utilizatorul se poate înregistra pentru a putea fi membru. De asemenea, el poate vizualiza conținutul public(tutoriale, evenimente). Dacă se înregistrează, utilizatorul poate vedea și conținutul privat (teste, fișiere) și poate adăuga sau modifica conținutul paginii. Dacă părăsește aplicația și apoi revine, utilizatorul se poate autentifica folosind un nume de utilizator și o parolă. Administratorul poate adăuga sau șterge conținutul aplicației (evenimente, teste, fișiere, tutoriale) și, de asemenea, poate face managementul utilizatorilor, adăugându-i sau ștergându-i și dându-le drepturi de acces la informații.
- 
+
 ### 9. Diagrame UML de information flow
- 
+Prin information flow arătăm parcursul informației de la emițător la receptor. Spre exemplu, utilizatorul doreste să acceseze o secțiune a siteului, acesta comunică cu serverul web care va trimite înapoi interfața web urmând să primească de la serverul de baze de date informațiile necesare.
+
 ### 10. Diagrame UML de componente
 Organizarea componentelor software fizice este alcatuită dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact și abonare), server ftp (pentru încărcarea temelor pe site sau a fișierelor 3D pentru printare), server de control al accesului (pentru a oferi conținut personalizat în funcție de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicație de mobile (S.O. Android), dar și un server web. Un site web responsive se va conecta la serverul web.
  
 ### 11. Diagrame UML de activitate
- Activitatea utilizatorului începe cu deschiderea aplicației.
+Activitatea utilizatorului începe cu deschiderea aplicației unde va fi prezent Ecranul 0 care va cere datele de autentificare. Dupa introducerea datelor se va cere validarea acestora, astfel vor fi aduse prin intermediul server-ului de servicii ultimele știri, notificările, recomandări și alte date oferite de widget-uri. Toate aceste date vor fi organizare pe o pagina scroll-down numita Ecran 1. In continuare activitatea utilizatorului depinde de ce servicii doreste sa beneficieze. In final, inaintea delogarii se v-a salva stadiul in care a ramas.
+
 ### 12. Diagrame UML de secvență
+Diagramele de secvenţe descriu interacţiunile dintre două sau mai multe entităţi şi ordinea în care mesajele sunt schimbate între acestea. Sun folosite în special pentru a reprezentat interacţiunile dintre obiecte. Mesajele sunt utilizate pentru a reprezenta schimburile de date şi informaţii dintre liniile de viaţă. Astfel, vom ilustra schimburile de mesaje dintre browser, aplicație și server atunci când se cere accesarea unor resurse protejate de catre un utilizator autentificat.
  
 ### 13. Diagrame UML de stare
  
