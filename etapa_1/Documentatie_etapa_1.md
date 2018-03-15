@@ -27,6 +27,7 @@ Fiecare utilizator se poate inregistra pe site pentru a avea acces la o structur
 ### 9. Diagrame UML de information flow
  
 ### 10. Diagrame UML de componente
+Oraganizarea componentelor software fizice este alcatuita dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact si abonare), server ftp (pentru incarcarea temelor pe site sau a fisierelor 3D pentru printare), server de control al accesului (pentru a oferi continut personalizat in functie de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicatie de mobile (S.O. Android) dar si un server web. Un site web responsive se va conecta la serverul web.
  
 ### 11. Diagrame UML de activitate
  
