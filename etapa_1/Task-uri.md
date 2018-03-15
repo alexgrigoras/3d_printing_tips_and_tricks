@@ -1,16 +1,16 @@
 # Etapa 1:
 
 ## A. Documentație (în format electronic)
-- [ ] Titlul proiectului
-- [ ] Componența echipei de implementare (evidențierea liderului)
-- [ ] Prezentarea temei alese + motivația alegerii
+- [x] Titlul proiectului
+- [x] Componența echipei de implementare (evidențierea liderului)
+- [x] Prezentarea temei alese + motivația alegerii
 - [ ] Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese 
 - [ ] Descrierea generală a implementării (caracteristici așteptate de la aplicație) 
-- [ ] Resursele hardware/software utilizate 
+- [x] Resursele hardware/software utilizate 
 - [ ] Identificarea actorilor și a componentelor principale 
 - [ ] Diagrame UML de use-case 
 - [ ] Diagrame UML de information flow 
-- [ ] Diagrame UML de componente 
+- [x] Diagrame UML de componente 
 - [ ] Diagrame UML de activitate 
 - [ ] Diagrame UML de secvență 
 - [ ] Diagrame UML de stare 
