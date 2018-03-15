@@ -1,17 +1,17 @@
-# ti_proiect 
+# Proiect Tehnologii Internet
 
-TUTORIALS - 3D Printing
+## Site Tutoriale despre Imprimarea 3D
 
-UPDATE: commit from linux
+### Membrii: 
+* Grigoras Alexandru
+* Suflet Ioan
+* Bodnariu Andreea
+* Luncanu Iuliana
 
-MEMBERS: 
-  - Grigoras Alexandru
-  - Suflet Ioan
-  - Bodnariu Andreea
-  - Luncanu Iuliana
+## MILESTONES:
 
-MILESTONES:
-  - Etapa 1: - creare repository GitHub
-             - impartire sarcini de lucru
-             - intocmire documentatie
+### Etapa 1:
+- creare repository GitHub
+- impartire sarcini de lucru
+- intocmire documentatie
 
