@@ -1,9 +1,9 @@
 # Etapa 1
 ### 1. Titlul proiectului 
-Imprimarea 3D. Sfaturi si trucuri
+Imprimarea 3D. Sfaturi și trucuri
 
 ### 2. Componența echipei de implementare (evidențierea liderului)
-* Grigoras Alexandru (lider)
+* Grigoraș Alexandru (lider)
 * Bodnariu Andreea
 * Luncanu Iuliana
 * Suflet Ioan
@@ -23,11 +23,12 @@ Fiecare utilizator se poate inregistra pe site pentru a avea acces la o structur
 ### 7. Identificarea actorilor și a componentelor principale
  
 ### 8. Diagrame UML de use-case
+Atunci când accesează aplicația, utilizatorul se poate înregistra pentru a putea fi membru. De asemenea, el poate vizualiza conținutul public(tutoriale, evenimente). Dacă se înregistrează, utilizatorul poate vedea și conținutul privat (teste, fișiere) și poate adăuga sau modifica conținutul paginii. Dacă părăsește aplicația și apoi revine, utilizatorul se poate autentifica folosind un nume de utilizator și o parolă. Administratorul poate adăuga sau șterge conținutul aplicației (evenimente, teste, fișiere, tutoriale) și, de asemenea, poate face managementul utilizatorilor, adăugându-i sau ștergându-i și dându-le drepturi de acces la informații.
  
 ### 9. Diagrame UML de information flow
  
 ### 10. Diagrame UML de componente
-Oraganizarea componentelor software fizice este alcatuita dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact si abonare), server ftp (pentru incarcarea temelor pe site sau a fisierelor 3D pentru printare), server de control al accesului (pentru a oferi continut personalizat in functie de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicatie de mobile (S.O. Android) dar si un server web. Un site web responsive se va conecta la serverul web.
+Organizarea componentelor software fizice este alcatuită dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact și abonare), server ftp (pentru încărcarea temelor pe site sau a fișierelor 3D pentru printare), server de control al accesului (pentru a oferi conținut personalizat în funcție de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicație de mobile (S.O. Android), dar și un server web. Un site web responsive se va conecta la serverul web.
  
 ### 11. Diagrame UML de activitate
  
