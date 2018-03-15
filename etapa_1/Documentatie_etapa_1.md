@@ -9,7 +9,7 @@ Imprimarea 3D. Sfaturi și trucuri
 * Suflet Ioan
 
 ### 3. Prezentarea temei alese + motivația alegerii
-Imprimarea 3D este un subiect care ma pasioneaza de multi ani. Datorita lui am avut initiativa de a-mi construi propria imprimanta. Am ajuns la concl ca mai multi oameni ar trebui sa cunoasca acest subiect, asa ca am decis sa realizam un site care sa ii indrume in acest scop. Platfoma va contine informatii, tutoriale, teste.
+Imprimarea 3D este un subiect care mă pasioneaza de mulți ani. Datorită lui am avut inițiativa de a-mi construi propria imprimantă. Am ajuns la concluzia că mai mulți oameni ar trebui să cunoască acest subiect, așa că am decis să realizăm un site care sa îi indrume în acest scop. Platfoma va conține informații, tutoriale, teste. Ne dorim, pe de o parte, să educăm publicul la noile posibilități de a ne concretiza invențiile prin imprimarea acestora. Astfel, vom participa la o augmentare a unor domenii precum arhitectura, arta, contrucțiile, robotica sau chiar domeniul culinar. Toate acestea vor conduce la o creștere în nevoia de imprimante 3D, care pot aparea în diferite forme și mărimi. Aici este momentul în care intervenim noi atât prin oferirea unui suport de informații organizate pentru construirea unei imprimante 3D, cât și prin servicii de printare.
 
 ### 4. Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese
 După o scurtă analiză a aplicațiilor deja existe (tutoriale pentru imprimarea 3D), acestea ar fi cele mai competitive aplicații.
