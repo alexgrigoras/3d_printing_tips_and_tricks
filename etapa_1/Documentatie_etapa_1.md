@@ -12,6 +12,11 @@ Imprimarea 3D. Sfaturi și trucuri
 Imprimarea 3D este un subiect care ma pasioneaza de multi ani. Datorita lui am avut initiativa de a-mi construi propria imprimanta. Am ajuns la concl ca mai multi oameni ar trebui sa cunoasca acest subiect, asa ca am decis sa realizam un site care sa ii indrume in acest scop. Platfoma va contine informatii, tutoriale, teste.
 
 ### 4. Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese
+După o scurtă analiză a aplicațiilor deja existe (tutoriale pentru imprimarea 3D), acestea ar fi cele mai competitive aplicații.
+https://all3dp.com/best-3d-printing-tutorial/
+https://www.shapeways.com/tutorials
+https://www.shapeways.com/tutorials/easy-3d-modeling-for-3d-printing-tutorial-for-beginners
+Aceste site-uri conțin tutoriale care te vor introduce, pas cu pas, în printarea 3D. O parte din aceste tutoriale sunt însoțite și de un video pentru ca informația să fie cât mai clară. Deși aceste site-uri conțin informații folositoare și bine structurate, nu dispun și de o metodă de evaluare (de exemplu teste, teme). O metodă de evaluare este necesară pentru a ne asigura ca informațiile au fost pe înțelesul utilizatorului. De asemenea, punerea în practică a cunoștințelor dobândite ajută la fixarea informației.
 
 ### 5. Descrierea generală a implementării (caracteristici așteptate de la aplicație)
 Fiecare utilizator se poate inregistra pe site pentru a avea acces la o structura clar definita a pasilor necesari contruirii unuei imprimante 3D. In aceslasi timp progresul utilizatorului va fi inregistrat. Verificarea cunostiintelor dobandite. FAQ
