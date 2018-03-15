@@ -37,7 +37,7 @@ Atunci când accesează aplicația, utilizatorul se poate înregistra pentru a p
 Organizarea componentelor software fizice este alcatuită dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact și abonare), server ftp (pentru încărcarea temelor pe site sau a fișierelor 3D pentru printare), server de control al accesului (pentru a oferi conținut personalizat în funcție de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicație de mobile (S.O. Android), dar și un server web. Un site web responsive se va conecta la serverul web.
  
 ### 11. Diagrame UML de activitate
- 
+ Activitatea utilizatorului începe cu deschiderea aplicației.
 ### 12. Diagrame UML de secvență
  
 ### 13. Diagrame UML de stare
