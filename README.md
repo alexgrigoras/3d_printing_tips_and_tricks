@@ -3,7 +3,7 @@
 ## Site Tutoriale despre Imprimarea 3D
 
 ### Membrii: 
-* Grigoras Alexandru
+* Grigoras Alexandru (lider)
 * Suflet Ioan
 * Bodnariu Andreea
 * Luncanu Iuliana
