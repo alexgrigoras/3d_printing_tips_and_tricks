@@ -1,35 +1,40 @@
 # Etapa 1
-### Titlul proiectului 
+### 1. Titlul proiectului 
 Imprimarea 3D. Sfaturi si trucuri
 
-### Componența echipei de implementare (evidențierea liderului)
+### 2. Componența echipei de implementare (evidențierea liderului)
 * Grigoras Alexandru (lider)
-* Suflet Ioan
 * Bodnariu Andreea
 * Luncanu Iuliana
+* Suflet Ioan
 
-### Prezentarea temei alese + motivația alegerii
-Imprimarea 3D este un subiect care ma pasioneaza de multi ani. Datorita lui am avut initiativa de a-mi construi propria imprimanta. Am ajuns la concl ca mai multi oameni ar trebui sa cunoasca acest subiect, asa ca am decis sa realizam un site care sa ii indrume in acest scop. Platfoma va contine informatii, tutoriale, teste. 
+### 3. Prezentarea temei alese + motivația alegerii
+Imprimarea 3D este un subiect care ma pasioneaza de multi ani. Datorita lui am avut initiativa de a-mi construi propria imprimanta. Am ajuns la concl ca mai multi oameni ar trebui sa cunoasca acest subiect, asa ca am decis sa realizam un site care sa ii indrume in acest scop. Platfoma va contine informatii, tutoriale, teste.
 
-### Descrierea generală a implementării (caracteristici așteptate de la aplicație)
+### 4. Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese
+
+### 5. Descrierea generală a implementării (caracteristici așteptate de la aplicație)
 Fiecare utilizator se poate inregistra pe site pentru a avea acces la o structura clar definita a pasilor necesari contruirii unuei imprimante 3D. In aceslasi timp progresul utilizatorului va fi inregistrat. Verificarea cunostiintelor dobandite. FAQ
 
- ### Resursele hardware/software utilizate
+### 6. Resursele hardware/software utilizate
+* Computer desktop sau laptop cu procesor minim intel Pentium, 1 GB memorie RAM, conexiune internet, sistem de operare Windows 7
+* Dispozitiv mobil cu sistem de operare Android (minim versiunea 5)
  
- ### Identificarea actorilor și a componentelor principale
+### 7. Identificarea actorilor și a componentelor principale
  
- ### Diagrame UML de use-case
+### 8. Diagrame UML de use-case
  
- ### Diagrame UML de information flow
+### 9. Diagrame UML de information flow
  
- ### Diagrame UML de componente
+### 10. Diagrame UML de componente
  
- ### Diagrame UML de activitate
+### 11. Diagrame UML de activitate
  
- ### Diagrame UML de secvență
+### 12. Diagrame UML de secvență
  
- ### Diagrame UML de stare
+### 13. Diagrame UML de stare
  
- ### Diagrame ER pentru baza de date
+### 14. Diagrame ER pentru baza de date
  
- ### Referirea și descrierea în text a fiecărei figuri/diagrame
+### 15. Referirea și descrierea în text a fiecărei figuri/diagrame
+
