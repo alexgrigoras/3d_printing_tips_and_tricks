@@ -26,6 +26,7 @@ Fiecare utilizator se poate inregistra pe site pentru a avea acces la o structur
 * Dispozitiv mobil cu sistem de operare Android (minim versiunea 5)
  
 ### 7. Identificarea actorilor și a componentelor principale
+Actorii sunt reprezentați de utilizatorii aplicației (elevi, studenți sau orice persoană interesată de printarea 3D). Componentele principale ale aplicației sunt server-ul de servicii, server-ul de mail, server-ul ftp, server-ul de control al accesului, server-ul de baze de date, server-ul web.
  
 ### 8. Diagrame UML de use-case
 Atunci când accesează aplicația, utilizatorul se poate înregistra pentru a putea fi membru. De asemenea, el poate vizualiza conținutul public(tutoriale, evenimente). Dacă se înregistrează, utilizatorul poate vedea și conținutul privat (teste, fișiere) și poate adăuga sau modifica conținutul paginii. Dacă părăsește aplicația și apoi revine, utilizatorul se poate autentifica folosind un nume de utilizator și o parolă. Administratorul poate adăuga sau șterge conținutul aplicației (evenimente, teste, fișiere, tutoriale) și, de asemenea, poate face managementul utilizatorilor, adăugându-i sau ștergându-i și dându-le drepturi de acces la informații.
