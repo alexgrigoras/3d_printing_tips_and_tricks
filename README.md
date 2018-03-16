@@ -15,3 +15,4 @@
 - impartire sarcini de lucru
 - intocmire documentatie
 
+### Etapa 2:
