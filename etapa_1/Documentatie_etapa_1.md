@@ -48,7 +48,7 @@ Organizarea componentelor software fizice este alcatuită dintr-un server web de
  
 ### 11. Diagrame UML de activitate
 
-
+![Diagrama de Activitate](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/Diagrama_Activitate.jpeg)
 
 Activitatea utilizatorului începe cu deschiderea aplicației unde va fi prezent Ecranul 0 care va cere datele de autentificare. Dupa introducerea datelor se va cere validarea acestora, astfel vor fi aduse prin intermediul server-ului de servicii ultimele știri, notificările, recomandări și alte date oferite de widget-uri. Toate aceste date vor fi organizare pe o pagina scroll-down numita Ecran 1. In continuare activitatea utilizatorului depinde de ce servicii doreste sa beneficieze. In final, inaintea delogarii se v-a salva stadiul in care a rămas.
 
