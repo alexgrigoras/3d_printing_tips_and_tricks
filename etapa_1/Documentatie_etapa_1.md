@@ -29,23 +29,44 @@ Aplicația va conține o secțiune dedicată știrilor de actualitate în domeni
 Actorii sunt reprezentați de utilizatorii aplicației (elevi, studenți sau orice persoană interesată de printarea 3D). Componentele principale ale aplicației sunt server-ul de servicii, server-ul de mail, server-ul ftp, server-ul de control al accesului, server-ul de baze de date, server-ul web.
  
 ### 8. Diagrame UML de use-case
+
+![Use Case Diagram](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/diagrama_use_case.png)
+
 Atunci când accesează aplicația, utilizatorul se poate înregistra pentru a putea fi membru. De asemenea, el poate vizualiza conținutul public(tutoriale, evenimente). Dacă se înregistrează, utilizatorul poate vedea și conținutul privat (teste, fișiere) și poate adăuga sau modifica conținutul paginii. Dacă părăsește aplicația și apoi revine, utilizatorul se poate autentifica folosind un nume de utilizator și o parolă. Administratorul poate adăuga sau șterge conținutul aplicației (evenimente, teste, fișiere, tutoriale) și, de asemenea, poate face managementul utilizatorilor, adăugându-i sau ștergându-i și dându-le drepturi de acces la informații.
 
 ### 9. Diagrame UML de information flow
+
+![Information Flow Diagram](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/Diagrama_Information_Flow.png)
+
 Prin information flow arătăm parcursul informației de la emițător la receptor. Spre exemplu, utilizatorul doreste să acceseze o secțiune a siteului, acesta comunică cu serverul web care va trimite înapoi interfața web urmând să primească de la serverul de baze de date informațiile necesare.
 
 ### 10. Diagrame UML de componente
+
+![Diagrama UML Componenete](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/diagrama_componente.jpg)
+
 Organizarea componentelor software fizice este alcatuită dintr-un server web de servicii (ce va oferi servicii de printare 3D, tutoriale), un server de mail (pentru contact și abonare), server ftp (pentru încărcarea temelor pe site sau a fișierelor 3D pentru printare), server de control al accesului (pentru a oferi conținut personalizat în funcție de utilizator), server de baze de date (pentru stocarea utilizatorilor, tutorialelor). La acestea se vor conecta un utilizator dintr-o aplicație de mobile (S.O. Android), dar și un server web. Un site web responsive se va conecta la serverul web.
  
 ### 11. Diagrame UML de activitate
+
+
+
 Activitatea utilizatorului începe cu deschiderea aplicației unde va fi prezent Ecranul 0 care va cere datele de autentificare. Dupa introducerea datelor se va cere validarea acestora, astfel vor fi aduse prin intermediul server-ului de servicii ultimele știri, notificările, recomandări și alte date oferite de widget-uri. Toate aceste date vor fi organizare pe o pagina scroll-down numita Ecran 1. In continuare activitatea utilizatorului depinde de ce servicii doreste sa beneficieze. In final, inaintea delogarii se v-a salva stadiul in care a rămas.
 
 ### 12. Diagrame UML de secvență
+
+![Diagrama UML de Secventa](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/Diagrama_Secventa.png)
+
 Diagramele de secvenţe descriu interacţiunile dintre două sau mai multe entităţi şi ordinea în care mesajele sunt schimbate între acestea. Sunt folosite în special pentru a reprezenta interacţiunile dintre obiecte. Mesajele sunt utilizate pentru a reprezenta schimburile de date şi informaţii dintre liniile de viaţă. Astfel, vom ilustra schimburile de mesaje dintre browser, aplicație și server atunci când se cere accesarea unor resurse protejate de catre un utilizator autentificat.
  
 ### 13. Diagrame UML de stare
+
+![Diagrama UML de Stare](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/diagrama_stare.png)
+
 În diagrama de stare vom ilustra serviciul de monitorizare a progresului construirii imprimantei. Când utilizatorul accesează secțiunea cu tutoriale el va observa istoricul vizualizărilor și va putea alege să continue. În unele cazuri nu toți pașii sunt accesibili așa că se va verifica dacă clientul are acces, aceasta fiind urmată de un feedback. După fiecare tutorial vor fi puse la dispoziție o serie de întrebări și exerciții care îl vor asigura pe utilizator că informația a fost înțeleasă. În cele din urmă, ieșirea din secțiunea cu tutoriale va fi precedată de salvarea stadiului curent.
  
 ### 14. Diagrame ER pentru baza de date
+
+![Diagrama ER pentru Baza de Date](https://github.com/alexgrigoras/ti_proiect/blob/master/etapa_1/diagrama_er_baza_date.png)
+
 Atunci când se înregistrează un utilizator, în baza de date se reține un id (unic utilizatorului), un nume, email, parolă și progres. Progresul acestuia se va face pe baza unui procentaj, a numărului de teste parcurse, a mediei lor și a fișierelor încărcate. Media testelor și numărul acestora parcurse se vor lua dintr-un alt tabel, în care se vor reține numărul testului, dificultatea lui, numărul de întrebări și nota obținută la testul respectiv.
 
