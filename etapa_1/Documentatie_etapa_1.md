@@ -12,10 +12,11 @@ Imprimarea 3D. Sfaturi și trucuri
 Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am avut inițiativa de a ne construi propria imprimantă. Am ajuns la concluzia că mai mulți oameni ar trebui să cunoască acest subiect, așa că am decis să realizăm un site care sa îi indrume în acest scop. Platfoma va conține informații, tutoriale, teste. Ne dorim, pe de o parte, să educăm publicul la noile posibilități de a ne concretiza invențiile prin imprimarea acestora. Astfel, vom participa la o augmentare a unor domenii precum arhitectura, arta, contrucțiile, robotica sau chiar domeniul culinar. Toate acestea vor conduce la o creștere în nevoia de imprimante 3D, care pot aparea în diferite forme și mărimi. Această creștere a interesului ne motivează să aprofundăm subiectul și să îl dezvoltăm. Aici este momentul în care intervenim noi atât prin oferirea unui suport de informații organizate pentru construirea unei imprimante 3D, cât și prin servicii de printare.
 
 ### 4. Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese
-După o scurtă analiză a aplicațiilor deja existe (tutoriale pentru imprimarea 3D), acestea ar fi cele mai competitive aplicații.
-https://all3dp.com/best-3d-printing-tutorial/
-https://www.shapeways.com/tutorials
-https://www.shapeways.com/tutorials/easy-3d-modeling-for-3d-printing-tutorial-for-beginners
+După o scurtă analiză a aplicațiilor deja existe (tutoriale pentru imprimarea 3D), acestea ar fi cele mai competitive aplicații:
+* https://all3dp.com/best-3d-printing-tutorial/
+* https://www.shapeways.com/tutorials
+* https://www.shapeways.com/tutorials/easy-3d-modeling-for-3d-printing-tutorial-for-beginners
+
 Aceste site-uri conțin tutoriale care te vor introduce, pas cu pas, în printarea 3D. O parte din aceste tutoriale sunt însoțite și de un video pentru ca informația să fie cât mai clară. Deși aceste site-uri conțin informații folositoare și bine structurate, nu dispun și de o metodă de evaluare (de exemplu teste, teme). O metodă de evaluare este necesară pentru a ne asigura ca informațiile au fost pe înțelesul utilizatorului. De asemenea, punerea în practică a cunoștințelor dobândite ajută la fixarea informației.
 
 ### 5. Descrierea generală a implementării (caracteristici așteptate de la aplicație)
