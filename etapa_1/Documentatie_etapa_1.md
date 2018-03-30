@@ -22,8 +22,8 @@ Aceste site-uri conțin tutoriale care te vor introduce, pas cu pas, în printar
 Aplicația va conține o secțiune dedicată știrilor de actualitate în domeniu, urmate de activitatea altor utilizatori care doresc să facă public progresul lor. Când utilizatorul accesează secțiunea cu tutoriale el va observa istoricul vizualizărilor și va putea alege să continue.După fiecare tutorial vor fi puse la dispoziție o serie de întrebări și exerciții care îl vor asigura pe utilizator că informația a fost înțeleasă. În cele din urmă, ieșirea din secțiunea cu tutoriale va fi precedată de salvarea stadiului curent. Pentru a oferi un nivel de calitate ridicat vom oferi asistență pentru fiecare tutorial, aceasta putând fi solicitată prin e-mail. Aplicația va conține și un serviciu de plasare a comenzilor pentru imprimări 3D.
 
 ### 6. Resursele hardware/software utilizate
-* Computer desktop sau laptop cu procesor minim intel Pentium, 1 GB memorie RAM, conexiune internet, sistem de operare Windows 7
-* Dispozitiv mobil cu sistem de operare Android (minim versiunea 5)
+* Computer desktop sau laptop cu specificatiile minime: procesor intel Pentium, 1 GB memorie RAM, conexiune internet, sistem de operare Windows 7;
+* Dispozitiv mobil cu sistem de operare Android (minim versiunea 5).
  
 ### 7. Identificarea actorilor și a componentelor principale
 Actorii sunt reprezentați de utilizatorii aplicației (elevi, studenți sau orice persoană interesată de printarea 3D). Componentele principale ale aplicației sunt server-ul de servicii, server-ul de mail, server-ul ftp, server-ul de control al accesului, server-ul de baze de date, server-ul web.
