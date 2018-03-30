@@ -5,7 +5,7 @@
 - [x] Componența echipei de implementare (evidențierea liderului)
 - [x] Prezentarea temei alese + motivația alegerii
 - [x] Scurtă analiză a tipurilor de aplicații existente din perspectiva temei alese 
-- [] Descrierea generală a implementării (caracteristici așteptate de la aplicație) 
+- [x] Descrierea generală a implementării (caracteristici așteptate de la aplicație) 
 - [x] Resursele hardware/software utilizate 
 - [x] Identificarea actorilor și a componentelor principale 
 - [x] Diagrame UML de use-case 
