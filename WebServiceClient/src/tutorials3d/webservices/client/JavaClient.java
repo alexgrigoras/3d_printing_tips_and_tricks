@@ -20,20 +20,20 @@ public class JavaClient {
 
 		// rest  -> numele specificat in fisierul web.xml de la server in interiorul tag-ului url-pattern
 		// hello -> numele specificat in fisierul Hello.java la adnotarea @Path
-		System.out.println(target.path("rest").path("tutorials").request()
+		System.out.println(target.path("api").path("tutorials").request()
 			.accept(MediaType.TEXT_PLAIN).get(Response.class).toString());
 
-		System.out.println(target.path("rest").path("tutorials").request()
+		System.out.println(target.path("api").path("tutorials").request()
 			.accept(MediaType.TEXT_PLAIN).get(String.class));
 
-		System.out.println(target.path("rest").path("tutorials").request()
+		System.out.println(target.path("api").path("tutorials").request()
 			.accept(MediaType.TEXT_XML).get(String.class));
 
-		System.out.println(target.path("rest").path("tutorials").request()
+		System.out.println(target.path("api").path("tutorials").request()
 			.accept(MediaType.TEXT_HTML).get(String.class));
 	}
 
 	private static URI getBaseURI() {
-		return UriBuilder.fromUri("http://localhost:5001/WebServiceServer").build();
+		return UriBuilder.fromUri("http://localhost:5003/WebServiceServer").build();
 	}
 }
