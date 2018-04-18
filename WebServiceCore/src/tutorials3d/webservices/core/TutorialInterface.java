@@ -11,7 +11,7 @@ import tutorials3d.webservices.core.Tutorial;
  */
 public interface TutorialInterface {
 	
-	List<Tutorial> getTutorials();
+	List<Tutorial> getTutorial();
 	
 	Tutorial findTutorialById(int id);
 	
