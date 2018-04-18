@@ -5,6 +5,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+/**
+ * @author alexgrigoras
+ * @created 17 feb 2018
+ * @version 1.0
+ */
 // adnotarea Path specifica calea relativa spre un anumit serviciu web
 // e.g., @ApplicationPath("api") + @Path("/tutorials") => http://localhost:5003/WebServiceServer/api/tutorials
 // in aceasta situatie se va apela una din metodele clasei Hello, in functie de tipul media (text/plain, text/xml sau text/html)

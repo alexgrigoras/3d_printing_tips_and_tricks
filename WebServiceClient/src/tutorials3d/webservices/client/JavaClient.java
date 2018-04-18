@@ -11,6 +11,11 @@ import javax.ws.rs.core.UriBuilder;
 
 import org.glassfish.jersey.client.ClientConfig;
 
+/**
+ * @author alexgrigoras
+ * @created 17 feb 2018
+ * @version 1.0
+ */
 public class JavaClient {
 	public static void main(String[] args) {
 		ClientConfig config = new ClientConfig();
