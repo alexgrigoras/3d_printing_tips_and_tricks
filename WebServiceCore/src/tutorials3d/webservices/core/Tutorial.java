@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author alexgrigoras
- * @created 17 feb 2018
+ * @created 18 feb 2018
  * @version 1.0
  */
 @XmlRootElement
