@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="lib" path="D:/TI_proiect/java-json.jar/java-json.jar"/>
 	<classpathentry kind="lib" path="lib/aopalliance-repackaged-2.5.0-b42.jar"/>
 	<classpathentry kind="lib" path="lib/cdi-api-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/el-api-2.2.jar"/>
