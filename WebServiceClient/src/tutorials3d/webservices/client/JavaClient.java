@@ -37,6 +37,9 @@ public class JavaClient {
 
 		System.out.println(target.path("api").path("tutorials").request()
 			.accept(MediaType.TEXT_HTML).get(String.class));
+		
+		System.out.println(target.path("api").path("tutorials").request()
+				.accept(MediaType.APPLICATION_JSON).get(String.class));
 	}
 
 	private static URI getBaseURI() {

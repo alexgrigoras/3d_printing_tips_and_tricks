@@ -37,5 +37,13 @@ public class Tutorials {
 		return "<html> " + "<title>" + "Hello Jersey" + "</title>"
 				+ "<body><h1>" + "Hello Jersey" + "</h1></body>" + "</html> ";
 	}
+	
+	// Metoda apelata daca tipul media cerut este HTML
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String sayJsonHello() {
+		return "<html> " + "<title>" + "Hello JSON" + "</title>"
+				+ "<body><h1>" + "Hello JSON" + "</h1></body>" + "</html> ";
+	}
 
 }
