@@ -13,7 +13,11 @@ import org.glassfish.jersey.client.ClientConfig;
 
 /**
  * @author alexgrigoras
+<<<<<<< HEAD
  * @from laptop-PC2
+=======
+ * @from ioanPC
+>>>>>>> branch 'master' of https://github.com/alexgrigoras/ti_proiect.git
  * @created 17 feb 2018
  * @version 1.0
  */
