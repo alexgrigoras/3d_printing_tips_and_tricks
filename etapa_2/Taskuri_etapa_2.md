@@ -1,4 +1,4 @@
-# Etapa 1:
+# Etapa 2:
 
 ## A Documentație (în format electronic):
 - [ ] 1 Ce s-a realizat până acum și ce urmează a fi implementat (max 2 pg)
