@@ -13,7 +13,7 @@ import org.glassfish.jersey.client.ClientConfig;
 
 /**
  * @author alexgrigoras
- * @from laptop-PC
+ * @from laptop-PC2
  * @created 17 feb 2018
  * @version 1.0
  */
