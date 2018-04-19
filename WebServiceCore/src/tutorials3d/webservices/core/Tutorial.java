@@ -1,7 +1,6 @@
 package tutorials3d.webservices.core;
 
 import java.io.StringWriter;
-
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
@@ -22,7 +21,7 @@ public class Tutorial {
 	private String Solutie;
 	
 	
-	public Test(int Nr_intrebare, String Enunt, String Rasp1, String Rasp2,String Rasp3,String Rasp4,String Solutie) {
+	public Tutorial(int Nr_intrebare, String Enunt, String Rasp1, String Rasp2,String Rasp3,String Rasp4,String Solutie) {
 		this.Nr_intrebare = Nr_intrebare;
 		this.Enunt = Enunt;
 		this.Rasp1 = Rasp1;
