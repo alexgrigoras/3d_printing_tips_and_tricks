@@ -1,9 +1,18 @@
 package tutorials3d.webservices.server;
 
+import java.io.StringReader;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
+import javax.json.stream.JsonParsingException;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+
+import tutorials3d.webservices.db.DBManager;
 
 /**
  * @author alexgrigoras
@@ -42,8 +51,9 @@ public class Tutorials {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String sayJsonHello() {
-		return "<html> " + "<title>" + "Hello JSON" + "</title>"
-				+ "<body><h1>" + "Hello JSON" + "</h1></body>" + "</html> ";
+		String jsonString = DBManager.getInstance().getTestList().toString();
+		
+		return jsonString;
 	}
 
 }
