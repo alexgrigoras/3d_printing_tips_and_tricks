@@ -15,8 +15,8 @@ Pentru urmatoarea etapa:
 * Adaugare progres pentru fiecare utilizator
 
 ## D Servicii web
-Serviciu Web ce primeste cerere de la serverul web si trimite inapoi un test.
-Testul contine intrebari din baza de date.
+* primeste cerere de la serverul web si trimite inapoi un test.
+* interogheaza baza de date pentru a obtine intrebarile pentru test
 
 ## E Server web
 Server web ce contine:
