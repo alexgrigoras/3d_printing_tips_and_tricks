@@ -8,7 +8,9 @@ Asignarea taskurilor conform etapei 2.
 Creare baza de date cu tabelele:
 * Utilizator (Id, Nume_utilizator, Email, Parola)
 * Teste (Nr_test, Nr_intrebare, Enunt, Rasp1, Rasp2, Rasp3, Rasp4, Solutie)
+
 Intrari de test in baza de date pentru testarea conexiunii.
+
 Pentru urmatoarea etapa: 
 * Adaugare progres pentru fiecare utilizator
 
