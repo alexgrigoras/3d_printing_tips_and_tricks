@@ -51,17 +51,6 @@ public class Tutorial {
 	public String getSolutie() {
 		return Solutie;
 	}
-	/*
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Enunt [ ").append(Nr_intrebare).append("]:  ").append(Enunt).append(System.getProperty("line.separator"));
-		builder.append("Raspuns 1:").append(Rasp1).append(System.getProperty("line.separator")).append("Raspuns 2:").append(Rasp2).append(System.getProperty("line.separator"))
-		.append("Raspuns 3:").append(Rasp3).append(System.getProperty("line.separator")).append("Raspuns 4:").append(Rasp4).append(System.getProperty("line.separator")).append("Solutia: ").append(Solutie);
-		
-		return builder.toString();
-	}
-	*/
 	@Override
 	public String toString() {
 		

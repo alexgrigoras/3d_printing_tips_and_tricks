@@ -1,18 +1,19 @@
 package tutorials3d.webservices.server;
 
-import java.io.StringReader;
-
-import javax.json.Json;
-import javax.json.JsonArray;
-import javax.json.JsonObject;
-import javax.json.JsonReader;
-import javax.json.stream.JsonParsingException;
+import java.util.List;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
-
-import tutorials3d.webservices.db.DBManager;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
+import javax.ws.rs.core.Response.Status;
+import tutorials3d.webservices.core.Test;
+import tutorials3d.webservices.db.*;
 
 /**
  * @author alexgrigoras
@@ -21,39 +22,30 @@ import tutorials3d.webservices.db.DBManager;
  */
 // adnotarea Path specifica calea relativa spre un anumit serviciu web
 // e.g., @ApplicationPath("api") + @Path("/tutorials") => http://localhost:5003/WebServiceServer/api/tutorials
-// in aceasta situatie se va apela una din metodele clasei Hello, in functie de tipul media (text/plain, text/xml sau text/html)
 @Path("/tutorials")
 public class Tutorials {
-
-	// Metoda apelata daca tipul media cerut este TEXT_PLAIN
-	@GET
-	@Produces(MediaType.TEXT_PLAIN)
-	public String sayPlainTextHello() {
-		return "Hello Jersey";
-	}
-
-	// Metoda apelata daca tipul media cerut este XML
-	@GET
-	@Produces(MediaType.TEXT_XML)
-	public String sayXMLHello() {
-		return "<?xml version=\"1.0\"?>" + "<hello> Hello Jersey" + "</hello>";
-	}
-
 	// Metoda apelata daca tipul media cerut este HTML
 	@GET
-	@Produces(MediaType.TEXT_HTML)
-	public String sayHtmlHello() {
-		return "<html> " + "<title>" + "Hello Jersey" + "</title>"
-				+ "<body><h1>" + "Hello Jersey" + "</h1></body>" + "</html> ";
+	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+	public List<Test> getTutorialList() {
+		
+		return DBManager.getInstance().getTutorialList();
 	}
 	
-	// Metoda apelata daca tipul media cerut este HTML
-	@GET
-	@Produces(MediaType.APPLICATION_JSON)
-	public String sayJsonHello() {
-		String jsonString = DBManager.getInstance().getTestList().toString();
-		
-		return jsonString;
+	@POST
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Response postTutorial(@Context UriInfo uriInfo, Test tutorial) {
+		return null;
 	}
-
+	
+	@PUT
+    public Response putBooks(List<Test> tutorial) {
+        //In this context having this method makes no sense, because usually one does not replace the entire book collection
+        return Response.status(Status.METHOD_NOT_ALLOWED).allow("GET", "POST").build();
+    }
+	
+	@DELETE
+    public Response deleteBooks() {
+        return Response.status(Status.METHOD_NOT_ALLOWED).allow("GET", "POST").build();
+    }
 }

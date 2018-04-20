@@ -13,7 +13,7 @@ import org.glassfish.jersey.client.ClientConfig;
 
 /**
  * @author alexgrigoras
- * @from ioanPC
+ * @from alexPC
  * @created 17 feb 2018
  * @version 1.0
  */
@@ -24,25 +24,14 @@ public class JavaClient {
 
 		WebTarget target = client.target(getBaseURI());
 
-		// rest  -> numele specificat in fisierul web.xml de la server in interiorul tag-ului url-pattern
-		// hello -> numele specificat in fisierul Hello.java la adnotarea @Path
-		System.out.println(target.path("api").path("tutorials").request()
-			.accept(MediaType.TEXT_PLAIN).get(Response.class).toString());
+		// api  -> numele specificat in fisierul web.xml de la server in interiorul tag-ului url-pattern
+		// tutorials -> numele specificat in fisierul Tutorials.java la adnotarea @Path
 
 		System.out.println(target.path("api").path("tutorials").request()
-			.accept(MediaType.TEXT_PLAIN).get(String.class));
-
-		System.out.println(target.path("api").path("tutorials").request()
-			.accept(MediaType.TEXT_XML).get(String.class));
-
-		System.out.println(target.path("api").path("tutorials").request()
-			.accept(MediaType.TEXT_HTML).get(String.class));
-		
-		System.out.println(target.path("api").path("tutorials").request()
-				.accept(MediaType.APPLICATION_JSON).get(String.class));
+				.accept(MediaType.APPLICATION_JSON).get(Response.class).toString());
 	}
 
 	private static URI getBaseURI() {
-		return UriBuilder.fromUri("http://localhost:5003/WebServiceServer").build();
+		return UriBuilder.fromUri("http://localhost:5003/WebServiceServer/").build();
 	}
 }

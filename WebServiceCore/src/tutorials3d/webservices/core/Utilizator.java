@@ -1,5 +1,6 @@
 package tutorials3d.webservices.core;
 
+// utilizator
 public class Utilizator {
 	private int id;
 	private String nume;

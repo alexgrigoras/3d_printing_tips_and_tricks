@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutoriale 3D</title>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/3dp.png" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script type="text/javascript" src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<body onload="loadDoc('content_pages/acasa.html')">
+		<nav>
+			<div id="logo">
+				<img src="images/3dp.png" alt="Menu Icon" height = "30px" width="30px" id="3dpicon">
+				IMPRIMAREA 3D
+			</div>
+
+			<label for="drop" class="toggle">
+				<img src="images/menu_icon.png" alt="Menu Icon" height = "25px" width="25px" id="menuicon">
+			</label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu">
+				<li><a href="#" onclick="loadDoc('content_pages/acasa.html')">Acasa</a></li>
+				<li>
+					<!-- First Tier Drop Down -->
+					<label for="drop-1" class="toggle" >Tutoriale +</label>
+					<a href="#">Tutoriale</a>
+					<input type="checkbox" id="drop-1"/>
+					<ul>
+						<li><a href="#" onclick="loadDoc('content_pages/3dprinting.html')">Imprimarea 3D</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/3dbuilding.html')">Construirea unei imprimante</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/gcodefiles.html')">Fisiere G-Code</a></li>
+					</ul>
+
+				</li>
+				<li>
+					<!-- First Tier Drop Down -->
+					<label for="drop-2" class="toggle">Teste +</label>
+					<a href="#">Teste</a>
+					<input type="checkbox" id="drop-2"/>
+					<ul>
+						<li><a href="#" onclick="loadDoc('content_pages/test1.html')">Test 1</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/test2.html')">Test 2</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/test3.html')">Test 3</a></li>
+					</ul>
+
+				</li>
+				<li>
+					<!-- First Tier Drop Down -->
+					<label for="drop-3" class="toggle">Instrumente +</label>
+					<a href="#">Instrumente</a>
+					<input type="checkbox" id="drop-3"/>
+					<ul>
+						<li><a href="#" onclick="loadDoc('content_pages/gcodeparser.html')">Interpretor</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/calculators.html')">Calculatoare</a></li>
+						<li><a href="#" onclick="loadDoc('content_pages/gcodehint.html')">G-CODE</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#" onclick="loadDoc('content_pages/contact.html')">Contact</a></li>
+				<li><a href="#" onclick="loadDoc('content_pages/login.html')">Login</a></li>
+
+			</ul>
+		</nav>
+		
+		<section id="body_section">		
+		</section>
+		<section>
+		<p>
+				<a href="TestServlet">Exemplu de servlet</a>
+			</p>
+			<p>
+				<a href="test.jsp">Exemplu de JSP</a>
+			</p>
+			</section>
+		<footer>
+		<p>&copy; Imprimarea 3D. Sfaturi si Trucuri, realizat de Grigoras Alexandru, 1307B</p>
+	</footer>
+	</body>
+
+</html>

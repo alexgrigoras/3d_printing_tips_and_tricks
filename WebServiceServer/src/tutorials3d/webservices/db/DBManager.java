@@ -7,16 +7,19 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import javax.ws.rs.PUT;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 import tutorials3d.webservices.core.Tutorial;
+import tutorials3d.webservices.core.TutorialInterface;
 import tutorials3d.webservices.core.Utilizator;
 
-public class DBManager {
+public class DBManager implements TutorialInterface{
 	private static final String URL = "jdbc:mysql://localhost:3306/my_database";
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "";
 	private static final DBManager instance = new DBManager();
 	private Connection conn;
-	
 	public static DBManager getInstance() {
 		return instance;
 	}
@@ -35,6 +38,7 @@ public class DBManager {
 			e.printStackTrace();
 		}
 	}
+	@Override
 	public List<Utilizator> getUtilizatorList() {
 		try (Statement st = conn.createStatement()) {
 			
@@ -57,8 +61,8 @@ public class DBManager {
 			return null;
 		}
 	}
-	
-	public List<Tutorial> getTestList() {
+	@Override
+	public List<Tutorial> getTutorialList() {
 		try (Statement st = conn.createStatement()) {
 			
 			List<Tutorial> tutorialList = new ArrayList<Tutorial>();
@@ -79,6 +83,21 @@ public class DBManager {
 			e.printStackTrace();
 			return null;
 		}
+	}
+	@Override
+	public boolean postTutorial(Tutorial tutorial) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@PUT
+    public Response putTutorial(List<Tutorial> tutorial) {
+        //In this context having this method makes no sense, because usually one does not replace the entire book collection
+        return Response.status(Status.METHOD_NOT_ALLOWED).allow("GET", "POST").build();
+    }
+	@Override
+	public boolean deleteTutorial(Tutorial tutorial) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
