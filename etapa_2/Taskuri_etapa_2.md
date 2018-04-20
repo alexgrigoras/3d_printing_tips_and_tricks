@@ -19,8 +19,7 @@
 - [ ] 3 Utilizarea unor metode diferite de GET (e.g., POST, PUT, DELETE)
 - [x] 4 Serverul de servicii web interoghează baza de date
 
-## E
-Server web
+## E Server web
 - [x] 1 Utilizarea unui server web care să folosească servlet-uri (cel puțin 1)
 - [x] 2 Utilizarea unui server web care să folosească JSP-uri (cel puțin 1)
 - [x] 3 Utilizarea HTML5, CSS și JavaScript
