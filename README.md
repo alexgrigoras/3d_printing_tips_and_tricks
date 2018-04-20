@@ -16,3 +16,6 @@
 - intocmire documentatie
 
 ### Etapa 2:
+- adaugare server web
+- adaugare server servicii
+- adaugare baza de date
