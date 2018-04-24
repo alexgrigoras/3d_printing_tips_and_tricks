@@ -45,8 +45,8 @@
   		</dependency>
 	</dependencies>
 	<modules>
-		<module>BookManagerClient</module>
-		<module>BookManagerCore</module>
-		<module>BookManagerWebServices</module>
+		<module>../TestManagerCore</module>
+		<module>../TestManagerWebServices</module>
+		<module>../TestManagerClient</module>
 	</modules>
 </project>
