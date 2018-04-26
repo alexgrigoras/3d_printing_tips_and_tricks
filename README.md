@@ -25,7 +25,7 @@ Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am
 - adaugare server servicii
 - adaugare baza de date
 
-### Milestone 2:
+### Milestone 3:
 - creare site web
 - creare aplicatie mobil
 - adaugare servicii noi la serverul de servicii
