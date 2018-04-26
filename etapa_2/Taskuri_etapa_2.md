@@ -1,7 +1,7 @@
 # Etapa 2:
 
 ## A Documentație (în format electronic):
-- [ ] 1 Ce s-a realizat până acum și ce urmează a fi implementat (max 2 pg)
+- [x] 1 Ce s-a realizat până acum și ce urmează a fi implementat (max 2 pg)
 
 ## B Managementul proiectului (Bitbucket/GitHub)
 - [x] 1 Utilizarea task-urilor (fiecare membru cel puțin 3 task-uri rezolvate)
@@ -16,7 +16,7 @@
 ## D Servicii web
 - [x] 1 Utilizarea unui server care folosește servicii web
 - [x] 2 Cel puțin un serviciu web care oferă răspuns în format XML sau JSON
-- [ ] 3 Utilizarea unor metode diferite de GET (e.g., POST, PUT, DELETE)
+- [x] 3 Utilizarea unor metode diferite de GET (e.g., POST, PUT, DELETE)
 - [x] 4 Serverul de servicii web interoghează baza de date
 
 ## E Server web
