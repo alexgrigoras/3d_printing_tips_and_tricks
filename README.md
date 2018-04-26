@@ -13,7 +13,7 @@ Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am
 * Bodnariu Andreea [[@andreeabodnariu](https://github.com/andreeabodnariu)]
 * Luncanu Iuliana [[@iulianaluncanu](https://github.com/iulianaluncanu)]
 
-## MILESTONES:
+## Milestones:
 
 ### Milestone 1:
 - creare repository GitHub
