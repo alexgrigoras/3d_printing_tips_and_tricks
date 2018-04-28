@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Configuration>
-<Configuration status="WARN" packages="ro.h23.bookmanager">
+<Configuration status="WARN" packages="ro.tutoriale3d.testmanager">
 	<Appenders>
 		<Console name="console-log" target="SYSTEM_OUT">
 			<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
