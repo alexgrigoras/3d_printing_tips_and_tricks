@@ -1,6 +1,8 @@
 package ro.tutoriale3d.testmanager.core;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 /**
  * @author alexgrigoras
@@ -18,17 +20,17 @@ public class Test {
 	private String Solutie;
 	
 	public Test() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Test(int Nr_intrebare, String Enunt, String Rasp1, String Rasp2,String Rasp3,String Rasp4,String Solutie) {
+		super();
 		this.Nr_intrebare = Nr_intrebare;
 		this.Enunt = Enunt;
 		this.Rasp1 = Rasp1;
 		this.Rasp2 = Rasp2;
 		this.Rasp3 = Rasp3;
 		this.Rasp4 = Rasp4;
-		this.Solutie=Solutie;
+		this.Solutie = Solutie;
 	}
 	public int getNr_intrebare() {
 		return Nr_intrebare;
@@ -53,20 +55,19 @@ public class Test {
 	}
 	@Override
 	public String toString() {
-		/*
-		JsonObject personObject = Json.createObjectBuilder()
-                .add("Nr_intrebare", Nr_intrebare)
-                .add("Enunt", Enunt)
-                .add("Rasp1", Rasp1)
-                .add("Rasp2", Rasp2)
-                .add("Rasp3", Rasp3)
-                .add("Rasp4", Rasp4)
-                .add("Solutie", Solutie)
-                .build();
-		*/
-        System.out.println("Object: test");
+		
+		JSONObject testObject = new JSONObject();
+		testObject.put("Nr_intrebare", Nr_intrebare);
+		testObject.put("Enunt", Enunt);
+		testObject.put("Rasp1", Rasp1);
+		testObject.put("Rasp2", Rasp2);
+		testObject.put("Rasp3", Rasp3);
+		testObject.put("Rasp4", Rasp4);
+		testObject.put("Solutie", Solutie);
+		
+        //System.out.println("Object: test");
         
-        return "Object: test";
+        return testObject.toJSONString();
 	}
 	
 }

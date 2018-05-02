@@ -18,6 +18,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.UriInfo;
 import ro.tutoriale3d.testmanager.core.Test;
+import ro.tutoriale3d.testmanager.db.DBManager;
 
 /**
  * @author alexgrigoras
@@ -38,10 +39,8 @@ public class TestResource {
 	}
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-	public String getTestList() {
-		
-		//return DBManager.getInstance().getTestList().toString();
-		return "abcs";
+	public List<Test> getTestList() {		
+		return DBManager.getInstance().getTestList();
 	}
 	
 	@POST

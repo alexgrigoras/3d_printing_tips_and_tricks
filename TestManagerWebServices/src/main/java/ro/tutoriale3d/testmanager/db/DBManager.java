@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import javax.ws.rs.PUT;
 import javax.xml.ws.Response;
@@ -18,6 +19,9 @@ public class DBManager implements TestInterface{
 	private static final String PASSWORD = "";
 	private static final DBManager instance = new DBManager();
 	private Connection conn;
+	
+	//private List<Test> testList = Collections.synchronizedList(new ArrayList<>());
+	
 	public static DBManager getInstance() {
 		return instance;
 	}
@@ -75,7 +79,7 @@ public class DBManager implements TestInterface{
 					rs.getString("Rasp2"),rs.getString("Rasp3"),rs.getString("Rasp4"),rs.getString("Solutie"));
 				testList.add(test);
 			}
-			// st.close();
+			//st.close();
 			return testList;
 		} catch (SQLException e) {
 			e.printStackTrace();
