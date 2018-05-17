@@ -6,7 +6,7 @@ Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am
 ## Credits
 
 ### Administrator: 
-* Grigoras Alexandru [[@alexgrigoras](https://github.com/alexgrigoras)] [lider]
+* Grigoraș Alexandru [[@alexgrigoras](https://github.com/alexgrigoras)] [lider]
 
 ### Contribuitori: 
 * Suflet Ioan [[@ioansuflet](https://github.com/ioansuflet)]
