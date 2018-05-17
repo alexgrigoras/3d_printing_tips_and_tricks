@@ -16,9 +16,11 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.UriInfo;
 import ro.tutoriale3d.testmanager.core.Test;
+import ro.tutoriale3d.testmanager.core.TestInterface;
 import ro.tutoriale3d.testmanager.db.DBManager;
 
 /**
@@ -38,7 +40,6 @@ public class TestResource {
 		
 		return "aaaaaaa";
 	}
-	
 
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
@@ -52,13 +53,16 @@ public class TestResource {
 	public List<Test> getTestListID(@PathParam("id_test") String id_test) {		
 		return DBManager.getInstance().getTestListID(id_test);
 	}
-	
+	/*
 	@POST
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Response postTest(@Context UriInfo uriInfo, Test test) {
-		return null;
+    public Response postTest(@Context UriInfo uriInfo, int Nr_intrebare, String Enunt, String Rasp1, String Rasp2, String Rasp3, String Rasp4, String Solutie) {
+		System.out.println(Enunt);
+		Test test = new Test(Nr_intrebare, Enunt, Rasp1, Rasp2, Rasp3, Rasp4, Solutie);
+        System.out.println("Adaugare test");
+        return Response.status(Status.ACCEPTED).allow("GET", "POST").build();
 	}
-	
+	*/
 	@PUT
     public Response putBooks(List<Test> test) {
         //In this context having this method makes no sense, because usually one does not replace the entire book collection

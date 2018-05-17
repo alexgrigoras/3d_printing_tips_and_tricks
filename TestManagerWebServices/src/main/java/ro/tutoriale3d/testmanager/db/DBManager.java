@@ -108,11 +108,7 @@ public class DBManager implements TestInterface{
 			return null;
 		}
 	}
-	@Override
-	public boolean postTest(Test test) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+
 	@PUT
     public Response<Test> putTest(List<Test> test) {
         //In this context having this method makes no sense, because usually one does not replace the entire book collection
@@ -121,6 +117,11 @@ public class DBManager implements TestInterface{
     }
 	@Override
 	public boolean deleteTest(Test test) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean addTest(Test test) {
 		// TODO Auto-generated method stub
 		return false;
 	}
