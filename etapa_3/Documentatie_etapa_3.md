@@ -3,8 +3,6 @@
 
 ## Probleme speciale sau dificultăți întâmpinate + design pattern-uri
 
-## Evidențierea clară a contribuțiilor fiecărui membru al echipei
-
 ## Liderul va face o apreciere critică a membrilor
 
 ## Managementul proiectului (Bitbucket/GitHub)
@@ -26,6 +24,8 @@ Tabelul tutoriale conține coloane: Id_tutorial de tip Numeric(2) NOT NULL, Titl
 ## Aplicaţie Mobile
 
 ## Aprecierea liderului de către membrii echipei
+
+Iuliana Luncanu: După părerea mea, având în vedere complexitatea acestui proiect, Alex a reușit să ne coordoneze foarte bine. Organizarea a fost bună, task-urile au fost împărțite în mod egal și am clarificat  lucrurile oricând nu înțelegeam. Per total, mie mi s-a părut un lider bun. 
 
 ## Concluzii
 
