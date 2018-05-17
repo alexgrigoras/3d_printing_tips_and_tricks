@@ -17,6 +17,8 @@ public interface TestInterface {
 	
 	List<Test> getTestList();
 	
+	List<Test> getTestListID(String id_test);
+	
 	/**
      * 
      * @param tutorial is updated with the id inside this method

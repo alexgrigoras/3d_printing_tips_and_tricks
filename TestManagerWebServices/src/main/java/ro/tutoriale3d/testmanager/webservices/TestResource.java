@@ -11,6 +11,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -26,7 +27,7 @@ import ro.tutoriale3d.testmanager.db.DBManager;
  * @version 1.0
  */
 // e.g., @ApplicationPath("api") + @Path("/tests") =>
-// http://localhost:5003/BookManagerWebServices/api/books
+// http://localhost:5003/TestManagerWebServices/api/tests
 @Path("/tests")
 public class TestResource {
 
@@ -37,10 +38,19 @@ public class TestResource {
 		
 		return "aaaaaaa";
 	}
+	
+
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
 	public List<Test> getTestList() {		
 		return DBManager.getInstance().getTestList();
+	}
+	
+	@GET
+	@Path("{id_test}")
+	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+	public List<Test> getTestListID(@PathParam("id_test") String id_test) {		
+		return DBManager.getInstance().getTestListID(id_test);
 	}
 	
 	@POST

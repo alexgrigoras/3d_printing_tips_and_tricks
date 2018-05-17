@@ -6,7 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import javax.ws.rs.PUT;
 import javax.xml.ws.Response;
@@ -14,7 +13,7 @@ import javax.xml.ws.Response;
 import ro.tutoriale3d.testmanager.core.*;
 
 public class DBManager implements TestInterface{
-	private static final String URL = "jdbc:mysql://localhost:3306/my_database";
+	private static final String URL = "jdbc:mysql://localhost:3306/3d_printing_database";
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "";
 	private static final DBManager instance = new DBManager();
@@ -69,7 +68,30 @@ public class DBManager implements TestInterface{
 			
 			List<Test> testList = new ArrayList<Test>();
 			
-			st.execute("select * from teste;");
+			st.execute("select * from intrebari;");
+			ResultSet rs = st.getResultSet();
+
+			while (rs.next()) {
+				
+				Test test = new Test(rs.getInt("Nr_intrebare"),
+					rs.getString("Enunt"), rs.getString("Rasp1"),
+					rs.getString("Rasp2"),rs.getString("Rasp3"),rs.getString("Rasp4"),rs.getString("Solutie"));
+				testList.add(test);
+			}
+			//st.close();
+			return testList;
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	@Override
+	public List<Test> getTestListID(String id_test) {
+		try (Statement st = conn.createStatement()) {
+			
+			List<Test> testList = new ArrayList<Test>();
+			
+			st.execute("select * from intrebari where Id_test = " + id_test + ";");
 			ResultSet rs = st.getResultSet();
 
 			while (rs.next()) {
