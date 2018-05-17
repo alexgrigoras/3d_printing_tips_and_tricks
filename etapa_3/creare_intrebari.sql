@@ -1,4 +1,4 @@
-create table intrebari(Id_test Numeric(2) NOT NULL,Nr_intrebare Numeric(2) NOT NULL, Enunt Varchar(500) NOT NULL,Rasp1 Varchar(300) NOT NULL,Rasp2 Varchar(300) NOT NULL,Rasp3 Varchar(300) NOT NULL,Rasp4 Varchar(300) NOT NULL,Solutie Varchar(300)NOT NULL);
+create table intrebari(Id_test Numeric(2) NOT NULL,Nr_intrebare Numeric(2) NOT NULL, Enunt Varchar(500) NOT NULL,Rasp1 Varchar(300) NOT NULL,Rasp2 Varchar(300) NOT NULL,Rasp3 Varchar(300) NOT NULL,Rasp4 Varchar(300) NOT NULL,Solutie Varchar(300) NOT NULL, PRIMARY KEY(Id_test));
 insert into intrebari values('1','1','What is the most important thing you should consider when making something in 3d?','Size','Gravity','Functionality','Quality','B');
 insert into intrebari values('1','2','What is the first thing you should consider when making something in 3d?','Quality','Functionality','Price','Size','D');
 insert into intrebari values('1','3','What is the file format we export to print?','Obj','Stj','Stl','Slt','C');
