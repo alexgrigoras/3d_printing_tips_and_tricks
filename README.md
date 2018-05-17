@@ -16,19 +16,19 @@ Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am
 ## Milestones:
 
 ### Milestone 1:
-- creare repository GitHub
-- impartire sarcini de lucru
-- intocmire documentatie
+- creare repository GitHub 
+- împărţire sarcini de lucru 
+- întocmire documentaţie
 
 ### Milestone 2:
-- adaugare server web
-- adaugare server servicii
-- adaugare baza de date
+- adăugare server web 
+- adăugare server servicii 
+- adăugare bază de date 
 
 ### Milestone 3:
-- creare site web
-- creare aplicatie mobil
-- adaugare servicii noi la serverul de servicii
+ - creare site web 
+ - creare aplicație mobil 
+ - adăugare servicii noi la serverul de servicii 
 
 ## License
-Proiect educational, realizat pentru disciplina Tehnologii Internet - Proiect.
+Proiect	educaţional, realizat pentru disciplina Tehnologii Internet - Proiect.
