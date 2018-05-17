@@ -30,3 +30,8 @@ Iuliana Luncanu: După părerea mea, având în vedere complexitatea acestui pro
 ## Concluzii
 
 ## Extinderea aplicaţiei
+
+Pe viitor, ar putea fi implementate:
+  - controlul restricționat în funcție de utilizatori 
+  - validarea datelor de intrare în formularul de log-in
+  - urmărirea progresului fiecărui utilizator 
