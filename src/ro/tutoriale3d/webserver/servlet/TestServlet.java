@@ -65,9 +65,14 @@ public class TestServlet extends HttpServlet {
 
 		// api  -> numele specificat in fisierul web.xml de la server in interiorul tag-ului url-pattern
 		// tutorials -> numele specificat in fisierul Tutorials.java la adnotarea @Path
-
-		String jsonString = target.path("api").path("tests").path(parameter).request().accept(MediaType.APPLICATION_JSON).get(String.class);
+		String jsonString;
 		
+		if(parameter != null) {
+			jsonString = target.path("api").path("tests").path(parameter).request().accept(MediaType.APPLICATION_JSON).get(String.class);
+		}
+		else {
+			jsonString = target.path("api").path("tests").request().accept(MediaType.APPLICATION_JSON).get(String.class);
+		}
 		jsonString = "{\"Intrebari\":" + jsonString + "}";
 		
 		try {
@@ -76,7 +81,12 @@ public class TestServlet extends HttpServlet {
 			JsonArray results = obj.getJsonArray("Intrebari");
 			
 			pw.append("<section class=\"first_container\">");
-			pw.append("<h2 align = \"center\">TEST "+ parameter + "</h2>");
+			if(parameter != null) {
+				pw.append("<h2 align = \"center\">TEST "+ parameter + "</h2>");
+			}
+			else {
+				pw.append("<h2 align = \"center\">ALL TESTS</h2>");
+			}
 			pw.append("<ol class=\"answers\">");
 			
 			for (JsonObject result : results.getValuesAs(JsonObject.class)) {
