@@ -6,7 +6,7 @@ Dificultăți în încărcarea pe Github și conflicte pe Github între membri.
 Dificultăți la utilizarea metodei POST. 
 
 ## Liderul va face o apreciere critică a membrilor
-Membrii echipei s-au descurcat foarte bine în realizarea taskurilor. Deși au avut dificultăți în unele cazuri, am reușit să ne organizăm foarte bine și am reușit să finalizăm majoritatea taskurilor.
+Membrii echipei s-au descurcat foarte bine în realizarea taskurilor. Deși au avut dificultăți în unele cazuri, au reușit să se organizeze foarte bine și să finalizeze majoritatea taskurilor.
 
 ## Bază de date
 Am creat o bază de date, care conține tabelele: utilizator, test, întrebări și tutoriale. 
