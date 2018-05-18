@@ -22,15 +22,19 @@ Tabelul tutoriale conține coloane: Id_tutorial de tip Numeric(2) NOT NULL, Titl
 ## Server web
 
 ## Aplicaţii Desktop
-  	## Aplicație Desktop ...
+  	Aplicație Desktop C#
+    Aplicația este realizată în C#. Aplicația primește un JSON și, după afișarea acestuia, putem face și deserializarea lui. Pe interfața grafică se află două butoane, unul pentru afișarea JSON-ului și al doilea pentru deserializarea acestuia. După deserializare, utilizator va avea la dispoziție un set de întrebări din tutorialele urmate anterior. Fiecare întrebare are alte răspunsuri, din care unul singur este cel corect. 
     
-    ## Aplicație Desktop JAVA
-      Scopul aplicației este de a trimite o cerere la serverul de baze de date prin care se ațteaptă să primească un JSON. După primirea acestuia  se va realiza deserializarea lui. Pe interfața grafică se află un buton cu scopul de a afișa conținutul testelor atunci când utilizatorul este pregătit.  Testele vor vi afișate intr-ul Text Field.
+    Aplicație Desktop JAVA
+    Scopul aplicației este de a trimite o cerere la serverul de baze de date prin care se ațteaptă să primească un JSON. După primirea acestuia  se va realiza deserializarea lui. Pe interfața grafică se află un buton cu scopul de a afișa conținutul testelor atunci când utilizatorul este pregătit.  Testele vor vi afișate intr-ul Text Field.
 
 ## Aprecierea liderului de către membrii echipei
 
 Iuliana Luncanu: După părerea mea, având în vedere complexitatea acestui proiect, Alex a reușit să ne coordoneze foarte bine. Organizarea a fost bună, task-urile au fost împărțite în mod egal și am clarificat  lucrurile oricând nu înțelegeam. Per total, mie mi s-a părut un lider bun. 
 
+Andreea Bodnariu: În opinia mea, Alex s-a descurcat foarte bine în rolul său de lider. A reușit sa ne coordoneze pe toți și să organizeze taskurile foarte bine. Pe lângă asta, a menținut în permanență comunicarea cu noi.
+
+Ioan Suflet: Am doar cuvinte de laudă pentru Alex! Acesta a reușit să managerieze foarte bine proiectul și taskurile noastre. A reușit să rămână obiectiv cu fiecare dintre noi.
 ## Concluzii
 
 ## Extinderea aplicaţiei
