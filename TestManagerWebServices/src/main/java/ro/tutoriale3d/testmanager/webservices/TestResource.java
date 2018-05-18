@@ -38,7 +38,7 @@ public class TestResource {
 	@Produces(MediaType.TEXT_HTML)
 	public String getHTML() {
 		
-		return "aaaaaaa";
+		return "3D Printing Site";
 	}
 
 	@GET
