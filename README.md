@@ -27,7 +27,7 @@ Imprimarea 3D este un subiect care ne pasioneaza de mulți ani. Datorită lui am
 
 ### Milestone 3:
  - creare site web 
- - creare aplicație mobil 
+ - creare aplicație desktop (java, c#)
  - adăugare servicii noi la serverul de servicii 
 
 ## License
