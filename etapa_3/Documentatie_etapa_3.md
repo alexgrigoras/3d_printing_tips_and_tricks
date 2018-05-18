@@ -22,9 +22,9 @@ Tabelul tutoriale conține coloane: Id_tutorial de tip Numeric(2) NOT NULL, Titl
 ## Server web
 
 ## Aplicaţii Desktop
-  	### Aplicație Desktop C#
+  	## Aplicație Desktop ...
     
-    ### Aplicație Desktop JAVA
+    ## Aplicație Desktop JAVA
       Scopul aplicației este de a trimite o cerere la serverul de baze de date prin care se ațteaptă să primească un JSON. După primirea acestuia  se va realiza deserializarea lui. Pe interfața grafică se află un buton cu scopul de a afișa conținutul testelor atunci când utilizatorul este pregătit.  Testele vor vi afișate intr-ul Text Field.
 
 ## Aprecierea liderului de către membrii echipei
