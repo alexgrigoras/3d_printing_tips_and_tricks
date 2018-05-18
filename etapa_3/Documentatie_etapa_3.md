@@ -2,10 +2,11 @@
 # Etapa 3:
 
 ## Probleme speciale sau dificultăți întâmpinate + design pattern-uri
+Dificultăți în încărcarea pe Github și conflicte pe Github între membri.
+Dificultăți la utilizarea metodei POST. 
 
 ## Liderul va face o apreciere critică a membrilor
-
-## Managementul proiectului (Bitbucket/GitHub)
+Membrii echipei s-au descurcat foarte bine în realizarea taskurilor. Deși au avut dificultăți în unele cazuri, am reușit să ne organizăm foarte bine și am reușit să finalizăm majoritatea taskurilor.
 
 ## Bază de date
 Am creat o bază de date, care conține tabelele: utilizator, test, întrebări și tutoriale. 
@@ -20,6 +21,7 @@ Tabelul tutoriale conține coloane: Id_tutorial de tip Numeric(2) NOT NULL, Titl
 Serverul de servicii web contine serviciul web de teste. Prin metodele Get se obtine lista de teste totala, dar se poate obtine si testul dupa numarul lui.
 
 ## Server web
+Aplcație WEB Responsive ce accesează serverul de servicii web și obține lista testelor.
 
 ## Aplicaţii Desktop
 
@@ -38,6 +40,7 @@ Andreea Bodnariu: În opinia mea, Alex s-a descurcat foarte bine în rolul său 
 Ioan Suflet: Am doar cuvinte de laudă pentru Alex! Acesta a reușit să managerieze foarte bine proiectul și taskurile noastre. A reușit să rămână obiectiv cu fiecare dintre noi.
 
 ## Concluzii
+Proiectul a descurs foarte bine și fiecare membru a reuși să învețe despre Tehnologiile WEB de tip REST, despre Servleturi, JSP, Sisteme de versionare, în final obținând o aplicație funcțională.
 
 ## Extinderea aplicaţiei
 
