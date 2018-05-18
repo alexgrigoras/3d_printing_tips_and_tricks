@@ -59,7 +59,7 @@ public class TestModifyServlet extends HttpServlet {
 				"    <br/>\r\n" + 
 				"\r\n" + 
 				"    <article class = \"form_container\">\r\n" + 
-				"        <form name=\"contactform\" method=\"post\" action=\"http://localhost:5003/TestManagerWebServices/api/tests\"" + 
+				"        <form name=\"contactform\" method=\"put\" action=\"http://localhost:5003/TestManagerWebServices/api/tests\"" + 
 				"            <br/>\r\n" + 
 				"            <label for=\"first_name\">Nr. Intrebare: <span style=\"color:red\">*</span></label><br/>\r\n" + 
 				"            <input  type=\"text\" name=\"Nr_intrebare\" maxlength=\"500\" size=\"30\">\r\n" + 
