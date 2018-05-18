@@ -22,6 +22,7 @@ Tabelul tutoriale conține coloane: Id_tutorial de tip Numeric(2) NOT NULL, Titl
 ## Server web
 
 ## Aplicaţii Desktop
+
   	Aplicație Desktop C#
     Aplicația este realizată în C#. Aplicația primește un JSON și, după afișarea acestuia, putem face și deserializarea lui. Pe interfața grafică se află două butoane, unul pentru afișarea JSON-ului și al doilea pentru deserializarea acestuia. După deserializare, utilizator va avea la dispoziție un set de întrebări din tutorialele urmate anterior. Fiecare întrebare are alte răspunsuri, din care unul singur este cel corect. 
     
