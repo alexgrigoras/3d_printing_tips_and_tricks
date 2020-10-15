@@ -1,5 +1,4 @@
-
-# Etapa 2:
+# Milestone 2:
 
 ## Managementul proiectului (Bitbucket/GitHub)
 Asignarea taskurilor conform etapei 2.

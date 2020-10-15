@@ -1,6 +1,7 @@
 # Milestone 1
+
 ### 1. Titlul proiectului 
-Imprimarea 3D. Sfaturi și trucuri
+3D printing - tips and tricks
 
 ### 2. Componența echipei de implementare (evidențierea liderului)
 * Grigoraș Alexandru (lider)
