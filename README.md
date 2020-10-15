@@ -1,4 +1,4 @@
-# 3D printing. Tips and Tricks
+# 3D printing - tips and tricks
 
 # Description
 <img align="right" width="200px" src="https://cdn-shop.adafruit.com/1200x900/649-00.jpg" />
